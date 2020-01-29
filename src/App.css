@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+.calc, .outputs, .inputs, .submit {
+  display: flex;
+  flex-wrap: wrap;
+}
+.outputs, .inputs, .submit {
+  justify-content: space-between;
+  width: 100%;
+}
+.outputs {
+  justify-content: space-around;
+}
+.outputs p {
+  width: 300px;
+  border: 1px solid #000;
+  text-align: left;
+  padding: 1em;
+}
+.calc {
+  width: 700px;
+  margin: 0 auto;
+}
+.submit {
+  margin-top: 1em;
+  justify-content: center;
+}
